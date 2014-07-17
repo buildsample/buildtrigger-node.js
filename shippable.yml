@@ -20,6 +20,7 @@ script:
     - curl -XPOST https://apibeta.shippable.com/projects/53bf743855a71a2200f19dee/build?token=$SHIPPABLE_API_TOKEN
     - echo "sqlite"
     - curl -XPOST https://apibeta.shippable.com/projects/53bf743955a71a2200f19df0/build?token=$SHIPPABLE_API_TOKEN
-   
+    - echo "protractor"
+    - curl -XPOST https://apibeta.shippable.com/projects/-53c772275652a5f800b176b3/build?token=$SHIPPABLE_API_TOKEN
 
 
