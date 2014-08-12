@@ -11,7 +11,7 @@ script:
     - echo "mongo"
     - curl -XPOST https://apibeta.shippable.com/projects/53bf743355a71a2200f19de6/build?token=$SHIPPABLE_API_TOKEN
     - echo "mysql"
-    - curl -XPOST https://apibeta.shippable.com/projects/53bf743455a71a2200f19de8/build?token=$SHIPPABLE_API_TOKEN
+    - curl -XPOST https://apibeta.shippable.com/projects/53d787a351d4257d04d66ba3/build?token=$SHIPPABLE_API_TOKEN
     - echo "ne04j"
     - curl -XPOST https://apibeta.shippable.com/projects/53bf743555a71a2200f19dea/build?token=$SHIPPABLE_API_TOKEN
     - echo "postgres"
@@ -21,6 +21,6 @@ script:
     - echo "sqlite"
     - curl -XPOST https://apibeta.shippable.com/projects/53bf743955a71a2200f19df0/build?token=$SHIPPABLE_API_TOKEN
     - echo "protractor"
-    - curl -XPOST https://apibeta.shippable.com/projects/-53c772275652a5f800b176b3/build?token=$SHIPPABLE_API_TOKEN
+    - curl -XPOST https://apibeta.shippable.com/projects/53c772275652a5f800b176b3/build?token=$SHIPPABLE_API_TOKEN
 
 
